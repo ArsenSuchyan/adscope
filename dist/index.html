@@ -6,7 +6,7 @@
 	<meta charset="UTF-8" />
 	<meta name="format-detection" content="telephone=no" />
 	<!-- <style>body{opacity: 0;}</style> -->
-	<link rel="stylesheet" href="css/style.min.css?_v=20241019204920" />
+	<link rel="stylesheet" href="css/style.min.css?_v=20241022150541" />
 	<link rel="shortcut icon" href="favicon.ico" />
 	<!-- <meta name="robots" content="noindex, nofollow"> -->
 	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -16,35 +16,41 @@
 	<div class="wrapper">
 		<header class="header">
 			<div class="header__logo">
-				<div class="header__image"></div>
+				<div class="header__picture">
+					<picture><source srcset="img/photo/logo.webp" type="image/webp"><img src="img/photo/logo.png" alt="logo" class="header__image" /></picture>
+				</div>
 				<div class="header__title">Adscope</div>
 			</div>
-			<nav class="header__menu menu">
-				<ul class="menu__list">
-					<li class="menu__item">
-						<a class="menu__link" href="#resources">Експертиза</a>
-					</li>
-					<li class="menu__item">
-						<a href="#solutions" class="menu__link">Рішення</a>
-					</li>
-					<li class="menu__item">
-						<a href="#advert-shark" class="menu__link">Акули реклами</a>
-					</li>
-					<li class="menu__item">
-						<a href="#case" class="menu__link">Кейс</a>
-					</li>
-					<li class="menu__item">
-						<a href="#service" class="menu__link">Cервіс</a>
-					</li>
-					<li class="menu__item">
-						<a href="#contacts" class="menu__link">Контакти</a>
-					</li>
-				</ul>
-			</nav>
+			<div class="header__menu menu">
+				<button type="button" class="menu__icon icon-menu"><span></span></button>
+				<nav class="menu__body">
+					<ul class="menu__list">
+						<li class="menu__item">
+							<a class="menu__link" href="#resources">Експертиза</a>
+						</li>
+						<li class="menu__item">
+							<a href="#solutions" class="menu__link">Рішення</a>
+						</li>
+						<li class="menu__item">
+							<a href="#advert-shark" class="menu__link">Акули реклами</a>
+						</li>
+						<li class="menu__item">
+							<a href="#case" class="menu__link">Кейс</a>
+						</li>
+						<li class="menu__item">
+							<a href="#service" class="menu__link">Cервіс</a>
+						</li>
+						<li class="menu__item">
+							<a href="#contacts" class="menu__link">Контакти</a>
+						</li>
+					</ul>
+				</nav>
+			</div>
 		</header>
 
 		<main class="page">
 			<section class="hero">
+				<picture><source srcset="img/photo/fone.webp" type="image/webp"><img src="img/photo/fone.png" alt="fone" class="hero__fone" /></picture>
 				<div class="hero__container">
 					<div class="hero__body">
 						<h1 class="hero__title"><span>AD</span>SCOPE</h1>
@@ -103,7 +109,7 @@
 						</article>
 						<article class="resources__item">
 							<div class="resources__picture">
-								<picture><source srcset="img/photo/google-analytics.webp" type="image/webp"><img src="img/photo/google-analytics.webp" alt="prom" class="resources__image" /></picture>
+								<picture><source srcset="img/photo/gmc-logo.webp" type="image/webp"><img src="img/photo/gmc-logo.jpg" alt="prom" class="resources__image" /></picture>
 							</div>
 							<p class="resources__text">
 								Вивчаємо вхідний трафік на ваш сайт з різних рекламних каналів
@@ -111,7 +117,7 @@
 						</article>
 						<article class="resources__item">
 							<div class="resources__picture">
-								<picture><source srcset="img/photo/gmc-logo.webp" type="image/webp"><img src="img/photo/gmc-logo.webp" alt="prom" class="resources__image" /></picture>
+								<picture><source srcset="img/photo/gmc-logo.webp" type="image/webp"><img src="img/photo/gmc-logo.jpg" alt="prom" class="resources__image" /></picture>
 							</div>
 							<p class="resources__text">
 								Застосовуємо для реалізації товарів з вашого онлайн-магазину
@@ -136,8 +142,9 @@
 					</div>
 				</div>
 				<div class="solutions__body">
-					<div class="solutions__container">
-						<article class="solutions__item">
+					<article class="solutions__item">
+						<picture><source srcset="img/photo/decor.webp" type="image/webp"><img src="img/photo/decor.png" alt="decor" class="solutions__decor" /></picture>
+						<div class="solutions__container">
 							<div class="solutions__picture">
 								<img src="img/gif/television.gif" alt="television" class="solutions__gif" />
 							</div>
@@ -158,8 +165,11 @@
 									</li>
 								</ul>
 							</div>
-						</article>
-						<article class="solutions__item">
+						</div>
+					</article>
+					<article class="solutions__item">
+						<picture><source srcset="img/photo/decor.webp" type="image/webp"><img src="img/photo/decor.png" alt="decor" class="solutions__decor" /></picture>
+						<div class="solutions__container">
 							<div class="solutions__picture">
 								<img src="img/gif/coding.gif" alt="television" class="solutions__gif" />
 							</div>
@@ -187,8 +197,11 @@
 									</li>
 								</ul>
 							</div>
-						</article>
-						<article class="solutions__item">
+						</div>
+					</article>
+					<article class="solutions__item">
+						<picture><source srcset="img/photo/decor.webp" type="image/webp"><img src="img/photo/decor.png" alt="decor" class="solutions__decor" /></picture>
+						<div class="solutions__container">
 							<div class="solutions__picture">
 								<img src="img/gif/sphere.gif" alt="television" class="solutions__gif" />
 							</div>
@@ -226,8 +239,8 @@
 									</li>
 								</ul>
 							</div>
-						</article>
-					</div>
+						</div>
+					</article>
 				</div>
 			</section>
 			<section class="advert-shark" id="advert-shark">
@@ -370,7 +383,7 @@
 		</footer>
 
 	</div>
-	<script src="js/app.min.js?_v=20241019204920"></script>
+	<script src="js/app.min.js?_v=20241022150541"></script>
 </body>
 
 </html>
